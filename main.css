@@ -1,0 +1,120 @@
+body {
+    width: 520px;
+    margin: 4% auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(67, 171, 255);
+  }
+  
+  .calculator {
+    padding: 20px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+  }
+  
+  .input {
+    border: 1px solid rgb(67, 171, 255);;
+    border-radius: 1px;
+    height: 60px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+  }
+  
+  .input:hover {
+    border: 1px solid #bbb;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 51, 99, 0.2);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 78, 122, 0.2);
+  }
+  
+  .buttons {}
+  
+  .operators {}
+  
+  .operators div {
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 15px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .operators div:hover {
+    background-color: rgb(78, 175, 255);
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: rgb(78, 175, 255);
+  }
+  
+  .operators div:active {
+    font-weight: bold;
+  }
+  
+  .leftPanel {
+    display: inline-block;
+  }
+  
+  .numbers div {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .numbers div:hover {
+    background-color: #6a97be;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(247, 203, 203, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #6a97be;
+  }
+  
+  .numbers div:active {
+    font-weight: bold;
+  }
+  
+  div.equal {
+    display: inline-block;
+    border: 1px solid #307CF9;
+    border-radius: 15px;
+    width: 17%;
+    text-align: center;
+    padding: 127px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #307CF9;
+    transition: all .2s ease-in-out;
+  }
+  
+  div.equal:hover {
+    background-color: #204177;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #204177;
+  }
+  
+  div.equal:active {
+    font-weight: bold;
+
+  }
